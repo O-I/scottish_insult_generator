@@ -16,7 +16,7 @@ defmodule ScottishInsultGenerator.Router do
   scope "/", ScottishInsultGenerator do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
+    get "/", InsultController, :index
   end
 
   # Other scopes may use custom stacks.

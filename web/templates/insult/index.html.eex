@@ -1,0 +1,4 @@
+<div class="jumbotron">
+  <img src=<%= @image_path %> alt="trump funny face" width=480>
+  <h2><%= @insult %></h2>
+</div>
